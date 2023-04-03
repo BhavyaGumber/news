@@ -63,7 +63,7 @@ const AuthForm = () => {
       .catch((error) => {
         
        
-        alert('Wrong Credentials, Try Signing Up');
+        alert('Error');
       });
     }
 
@@ -92,6 +92,7 @@ const AuthForm = () => {
         const errorCode = error.code;
         const errorMessage = error.message;
         console.log(errorCode,errorMessage)
+        alert("error")
       });
   };
   const handleGitHubSignIn = (e) => {
@@ -118,6 +119,7 @@ const AuthForm = () => {
         const errorCode = error.code;
         const errorMessage = error.message;
         console.log(errorCode, errorMessage);
+        alert("Error,May be an account with the same email id already exists!");
       });
   };
 

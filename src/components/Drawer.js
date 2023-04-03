@@ -34,27 +34,27 @@ const classes = useStyles();
         <List>
          <ListItem onClick={() => setOpenDrawer(false)}>
             <ListItemText>
-              <Link to="/">LEARN</Link>
+              <Link to="/news">LEARN</Link>
             </ListItemText>
           </ListItem>
           <ListItem onClick={() => setOpenDrawer(false)}>
             <ListItemText>
-              <Link to="/">BLOCK</Link>
+              <Link to="/news">BLOCK</Link>
             </ListItemText>
           </ListItem>
           <ListItem onClick={() => setOpenDrawer(false)}>
             <ListItemText>
-              <Link to="/">BOOKMARK</Link>
+              <Link to="/news">BOOKMARK</Link>
             </ListItemText>
           </ListItem>
           <ListItem onClick={() => setOpenDrawer(false)}>
             <ListItemText>
-              <Link to="/">UI KIT</Link>
+              <Link to="/news">UI KIT</Link>
             </ListItemText>
             </ListItem>
             <ListItem>
             <ListItemText>
-              <Link to="/">RESOURCES</Link>
+              <Link to="/news">RESOURCES</Link>
             </ListItemText>
           </ListItem>
         </List>

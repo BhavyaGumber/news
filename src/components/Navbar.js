@@ -62,27 +62,27 @@ function Navbar() {
         ) : (
           <div className={classes.container}>
           <div  className={classes.navlinks}>
-            <Link to="/" className={classes.link}>
+            <Link to="/news" className={classes.link}>
               LEARN
             </Link>
-            <Link to="/" className={classes.link}>
+            <Link to="/news" className={classes.link}>
               BLOG
             </Link>
-            <Link to="/" className={classes.link}>
+            <Link to="/news" className={classes.link}>
               BOOKMARK
             </Link>
-            <Link to="/" className={classes.link}>
+            <Link to="/news" className={classes.link}>
               UI KIT
             </Link>
-            <Link to="/" className={classes.link}>
+            <Link to="/news" className={classes.link}>
               RESOURCES
             </Link>
             </div>
             <div>
-            <Link to="/" className={classes.link}>  <TwitterIcon/></Link>
-          <Link to="/" className={classes.link}>  <InstagramIcon/></Link>
-          <Link to="/" className={classes.link}>  <MailOutlineIcon/></Link>
-          <Link to="/" className={classes.link}>  <HelpIcon/></Link>
+            <Link to="/news" className={classes.link}>  <TwitterIcon/></Link>
+          <Link to="/news" className={classes.link}>  <InstagramIcon/></Link>
+          <Link to="/news" className={classes.link}>  <MailOutlineIcon/></Link>
+          <Link to="/news" className={classes.link}>  <HelpIcon/></Link>
           </div>
                 
             
